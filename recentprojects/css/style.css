@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 900px;
+    background-color: green;
+    position: relative;
+    
+    
+}
+
+.row
+{
+    gap: 5px;
+}
+
+.col-6{
+    width: calc(50% - 10px);
+    background-color: red;
+    height: 300px;
+    border: 1px solid black;
+}
